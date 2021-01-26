@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1582486740 source:c:\users\acer\desktop\ui\projekt - dama\dama\main.cpp
+	"dama.h"
+	<iostream>
+
+1582670217 c:\users\acer\desktop\ui\projekt - dama\dama\dama.h
+	<iostream>
+	<string>
+	<chrono>
+	<thread>
+	<cstdlib>
+	<fstream>
+	<random>
+	<iomanip>
+	<time.h>
+
+1582651391 source:c:\users\acer\desktop\ui\projekt - dama\dama\dama.cpp
+	"dama.h"
+
+1582673603 source:c:\users\acer\desktop\ui\seminarski rad - dama\kod\dama.cpp
+	"dama.h"
+
+1582754978 c:\users\acer\desktop\ui\seminarski rad - dama\kod\dama.h
+	<iostream>
+	<string>
+	<chrono>
+	<thread>
+	<cstdlib>
+	<fstream>
+	<random>
+	<iomanip>
+	<time.h>
+
+1582486740 source:c:\users\acer\desktop\ui\seminarski rad - dama\kod\main.cpp
+	"dama.h"
+	<iostream>
+
+1582486740 source:c:\umjetnainteligencija\seminarski rad - dama\kod\main.cpp
+	"dama.h"
+	<iostream>
+
+1582754978 c:\umjetnainteligencija\seminarski rad - dama\kod\dama.h
+	<iostream>
+	<string>
+	<chrono>
+	<thread>
+	<cstdlib>
+	<fstream>
+	<random>
+	<iomanip>
+	<time.h>
+
