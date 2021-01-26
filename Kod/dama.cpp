@@ -710,7 +710,12 @@ bool Game::MakeMove()
             std::cin>> collumn;
 
 
-            if (row<'a' || row>'h' || collumn<1 || collumn>4)std::cout<< "Wrong input! "; else
+            if (row<'a' || row>'h' || collumn<1 || collumn>4)
+            {
+                std::cout<< "Wrong input! ";
+                std::cin.clear();
+            }
+            else
             if (GameBoard.Locations[(int)(row-'a')][collumn-1]!=-1) std::cout<< "That's not a circle! ";
             else
             {
@@ -727,7 +732,12 @@ bool Game::MakeMove()
                         std::cin>> row1; if (row1=='x') { Clear(); return true; }
                         std::cin>> collumn1;
 
-                        if (row1<'a' || row1>'h' || collumn1<1 || collumn1>4) std::cout<< "Wrong input! "; else
+                        if (row1<'a' || row1>'h' || collumn1<1 || collumn1>4)
+                        {
+                            std::cout<< "Wrong input! ";
+                            std::cin.clear();
+                        }
+                        else
                         if (GameBoard.Locations[(int)(row1-'a')][collumn1-1]!=2) std::cout<< "That's not an exclamation point! ";
                         else
                         {
